@@ -28,16 +28,14 @@ color:white;
 
 .logo {
 
-color: white;
+color: black;
 
 font-weight: bold;
 
-font-size: 26px;
+font-size: 24px;
 
 text-shadow: 
-0 0 5px white,
-0 0 10px #0066ff,
-0 0 15px #0066ff;
+0 0 5px white;
 
 }
 
