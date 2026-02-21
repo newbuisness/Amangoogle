@@ -7,29 +7,6 @@ color:white;
 
 }
 
-.navbar {
-
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 6px 20px;
-
-    background: linear-gradient(90deg, #0f2027, #0a3d3f, #06695c);
-
-    box-shadow: 0 0 10px rgba(0,255,180,0.35);
-
-    backdrop-filter: blur(8px);
-
-    z-index: 1000;
-
-    transition: 0.3s;
-
-}
 
 .logo {
 
@@ -530,21 +507,7 @@ padding: 20px;
 margin: 10px;
 }
 /* STICKY NAVBAR */
-.navbar {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-background: linear-gradient(90deg, #b30000, #ff1a1a);
-padding: 15px 30px;
-z-index: 9999;
 
-/* glass effect */
-backdrop-filter: blur(10px);
-
-/* shadow */
-box-shadow: 0 5px 20px rgba(255,0,0,0.4);
-}
 
 /* navbar text color */
 .navbar a {
@@ -577,8 +540,8 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-padding: 15px 30px;
-background: linear-gradient(90deg, #b30000, #ff1a1a);
+padding: 8px 20px;
+background: linear-gradient(90deg, #ff0000, #ff7300, #ffd700);
 z-index: 9999;
 transition: all 0.4s ease;
 
