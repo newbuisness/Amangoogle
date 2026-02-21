@@ -18,7 +18,16 @@ background:black;
 
 .logo {
 
-color:white;
+color: white;
+
+font-weight: bold;
+
+font-size: 26px;
+
+text-shadow: 
+0 0 5px white,
+0 0 10px #0066ff,
+0 0 15px #0066ff;
 
 }
 
@@ -301,19 +310,34 @@ margin-bottom: 10px;
 .order-btn {
 
 display: inline-block;
-margin-top: 10px;
-padding: 10px 20px;
-background: red;
-color: white;
+margin-top: 12px;
+padding: 12px 22px;
+
+background: linear-gradient(45deg, #FFD700, #FFA500);
+
+color: black;
+
 text-decoration: none;
-border-radius: 6px;
+
+border-radius: 8px;
+
+font-weight: bold;
+
+font-size: 16px;
+
+box-shadow: 0 0 10px rgba(255,215,0,0.7);
+
 transition: 0.3s;
 
 }
 
 .order-btn:hover {
 
-background: #0066ff;
+background: linear-gradient(45deg, #FFA500, #FFD700);
+
+box-shadow: 0 0 20px rgba(255,215,0,1);
+
+color: black;
 
 }
 
