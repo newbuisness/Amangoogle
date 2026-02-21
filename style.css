@@ -17,11 +17,11 @@ color:white;
     justify-content: space-between;
     align-items: center;
 
-    padding: 12px 30px;
+    padding: 6px 20px;
 
-    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(90deg, #0f2027, #0a3d3f, #06695c);
 
-    box-shadow: 0 0 15px rgba(0,255,200,0.25);
+    box-shadow: 0 0 10px rgba(0,255,180,0.35);
 
     backdrop-filter: blur(8px);
 
