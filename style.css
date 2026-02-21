@@ -405,12 +405,6 @@ margin: 10px auto;
 
 }
 
-.navbar {
-
-flex-direction: column;
-align-items: center;
-
-}
 
 .navbar ul {
 
@@ -536,14 +530,25 @@ padding-top: 70px;
 }
 /* PREMIUM STICKY NAVBAR */
 .navbar {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-padding: 8px 20px;
-background: linear-gradient(90deg, #ff0000, #ff7300, #ffd700);
-z-index: 9999;
-transition: all 0.4s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px 20px;
+
+    background: linear-gradient(90deg, #ff0000, #ff7300, #ffd700);
+
+    z-index: 9999;
+    transition: all 0.4s ease;
+
+    border-bottom: 2px solid rgba(255,215,0,0.6);
+    box-shadow: 0 0 15px rgba(255,0,0,0.5);
+}
 
 /* glowing border */
 border-bottom: 2px solid rgba(255,215,0,0.6);
