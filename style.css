@@ -170,3 +170,65 @@ position: relative;
 z-index: 1;
 
 }
+.pricing {
+
+padding: 60px 20px;
+text-align: center;
+background: black;
+
+}
+
+.pricing h2 {
+
+color: white;
+margin-bottom: 40px;
+
+}
+
+.pricing-container {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.pricing-card {
+
+background: #111;
+border: 1px solid #0066ff;
+margin: 15px;
+padding: 20px;
+width: 280px;
+border-radius: 10px;
+transition: 0.3s;
+
+}
+
+.pricing-card:hover {
+
+transform: scale(1.05);
+border-color: red;
+
+}
+
+.price {
+
+color: red;
+font-size: 22px;
+font-weight: bold;
+
+}
+
+.pricing-card ul {
+
+list-style: none;
+padding: 0;
+
+}
+
+.pricing-card li {
+
+padding: 5px;
+
+}
