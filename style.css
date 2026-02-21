@@ -452,3 +452,53 @@ transition: all 0.4s ease;
 transform: translateY(-10px) scale(1.05);
 box-shadow: 0 0 40px rgba(255,255,255,0.6);
 }
+/* HOVER EFFECT - Premium Agency Style */
+
+.service-card {
+position: relative;
+overflow: hidden;
+cursor: pointer;
+transition: all 0.4s ease;
+}
+
+/* Lift effect */
+.service-card:hover {
+transform: translateY(-12px) scale(1.04);
+box-shadow: 
+0 10px 40px rgba(0,0,0,0.6),
+0 0 30px rgba(255,255,255,0.4);
+}
+
+/* Glow light effect */
+.service-card::before {
+content: "";
+position: absolute;
+top: -50%;
+left: -50%;
+width: 200%;
+height: 200%;
+background: linear-gradient(
+120deg,
+transparent,
+rgba(255,255,255,0.25),
+transparent
+);
+transform: rotate(25deg);
+opacity: 0;
+transition: opacity 0.4s;
+}
+
+/* Glow on hover */
+.service-card:hover::before {
+opacity: 1;
+animation: shine 1.2s ease;
+}
+
+@keyframes shine {
+0% {
+transform: translateX(-100%) rotate(25deg);
+}
+100% {
+transform: translateX(100%) rotate(25deg);
+}
+}
