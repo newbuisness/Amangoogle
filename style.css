@@ -1,0 +1,142 @@
+body {
+
+margin:0;
+font-family:Arial;
+background:black;
+color:white;
+
+}
+
+.navbar {
+
+display:flex;
+justify-content:space-between;
+padding:15px;
+background:black;
+
+}
+
+.logo {
+
+color:red;
+
+}
+
+ul {
+
+display:flex;
+list-style:none;
+
+}
+
+ul li a {
+
+color:white;
+margin:10px;
+text-decoration:none;
+
+}
+
+.hero {
+
+text-align:center;
+padding:100px;
+background:linear-gradient(black, #001f3f);
+
+}
+
+.btn-red {
+
+background:red;
+padding:10px 20px;
+color:white;
+text-decoration:none;
+margin:10px;
+display:inline-block;
+
+}
+
+.btn-blue {
+
+background:blue;
+padding:10px 20px;
+color:white;
+text-decoration:none;
+margin:10px;
+display:inline-block;
+
+}
+
+.about {
+
+padding:50px;
+text-align:center;
+
+}
+
+.services {
+
+padding:50px;
+text-align:center;
+
+}
+
+.card-container {
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+
+}
+
+.card {
+
+background:#111;
+margin:15px;
+padding:20px;
+width:250px;
+border:1px solid red;
+
+}
+
+.gallery {
+
+padding:50px;
+text-align:center;
+
+}
+
+.gallery-container img {
+
+width:300px;
+margin:10px;
+border-radius:10px;
+
+}
+
+.contact {
+
+padding:50px;
+text-align:center;
+
+}
+
+footer {
+
+background:#111;
+padding:20px;
+text-align:center;
+
+}
+
+.whatsapp-float {
+
+position:fixed;
+bottom:20px;
+right:20px;
+background:green;
+color:white;
+padding:15px;
+text-decoration:none;
+
+}
