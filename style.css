@@ -502,3 +502,15 @@ transform: translateX(-100%) rotate(25deg);
 transform: translateX(100%) rotate(25deg);
 }
 }
+/* Services container spacing */
+.card-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 30px; /* यह cards के बीच gap देगा */
+padding: 20px;
+}
+
+/* Extra spacing for each card */
+.service-card {
+margin: 10px;
+}
